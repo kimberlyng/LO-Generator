@@ -1,0 +1,2 @@
+INDEX VERSION 1.127+C:\Users\kguthrie\Documents\GitHub\LO-Generator\.metadata\.plugins\org.eclipse.jdt.core
+1595009946.index

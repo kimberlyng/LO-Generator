@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lo_content type="table">
+    <title lang="en">Advantages and Disadvantages of XML</title>
+	<table_header>
+	    <table_column colspan="">Advantages</table_column>
+	    <table_column colspan="">Disadvantages</table_column>
+	</table_header>
+	
+	<table_row>
+		<table_column colspan="">It is a simultaneously human and machine-readable format</table_column>
+		<table_column colspan="">XML syntax is redundant or large relative to binary representations of similar data</table_column>
+	</table_row>
+	<table_row>
+		<table_column colspan="">It can represent the most general computer science data structures: records, lists and trees</table_column>
+		<table_column colspan="">No intrinsic data type support: XML provides no specific notion of “integer”, “string”, “boolean”, “date”, and so on</table_column>
+	</table_row>
+    <metadata>
+		<format></format>
+		<size></size>
+		<platform_requirements></platform_requirements>
+		<copyright></copyright>
+		<description lang="en">A tabular listing of the Advantages and Disadvantages of XML.</description>
+    </metadata>
+</lo_content>

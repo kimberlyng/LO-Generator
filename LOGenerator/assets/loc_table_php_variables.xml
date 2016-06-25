@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lo_content type="table">
+    <title lang="en">PHP Variable Types</title>
+	<table_header>
+	    <table_column colspan="">Variable Type</table_column>
+	    <table_column colspan="">Description</table_column>
+	</table_header>
+	
+	<table_row>
+		<table_column colspan="">Integers</table_column>
+		<table_column colspan="">are whole numbers, without a decimal point, like 4195.</table_column>
+	</table_row>
+	<table_row>
+		<table_column colspan="">Doubles</table_column>
+		<table_column colspan="">No intrinsic data type support: XML provides no specific notion of “integer”, “string”, “boolean”, “date”, and so on</table_column>
+	</table_row>
+	<table_row>
+		<table_column colspan="">Booleans</table_column>
+		<table_column colspan="">have only two possible values either true or false.</table_column>
+	</table_row>
+	<table_row>
+		<table_column colspan="">NULL</table_column>
+		<table_column colspan="">is a special type that only has one value: NULL.</table_column>
+	</table_row>
+	<table_row>
+		<table_column colspan="">Strings</table_column>
+		<table_column colspan="">are sequences of characters, like 'PHP supports string operations.'</table_column>
+	</table_row>
+	<table_row>
+		<table_column colspan="">Arrays</table_column>
+		<table_column colspan="">are named and indexed collections of other values.</table_column>
+	</table_row>
+	<table_row>
+		<table_column colspan="">Objects</table_column>
+		<table_column colspan="">are instances of programmer-defined classes, which can package up both
+other kinds of values and functions that are specific to the class.</table_column>
+	</table_row>
+	<table_row>
+		<table_column colspan="">Resources</table_column>
+		<table_column colspan="">are special variables that hold references to resources external to PHP
+(such as database connections).</table_column>
+	</table_row>
+    <metadata>
+		<format></format>
+		<size></size>
+		<platform_requirements></platform_requirements>
+		<copyright></copyright>
+		<description lang="en">A tabular listing of the various PHP variable types</description>
+    </metadata>
+</lo_content>

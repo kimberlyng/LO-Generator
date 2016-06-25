@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lo_content type="text" >
+
+    <title lang="en" >
+OOP Definition
+    </title>
+
+    <section>
+
+        <subtitle lang="en" >
+        </subtitle>
+
+        <paragraph lang="en" >
+Object-oriented programming (OOP) is a programming paradigm based on the concept of "objects", which may contain data, in the form of fields, often known as attributes; and code, in the form of procedures, often known as methods. A distinguishing feature of objects is that an object's procedures can access and often modify the data fields of the object with which they are associated (objects have a notion of "this" or "self"). In OO programming, computer programs are designed by making them out of objects that interact with one another.There is significant diversity in object-oriented programming, but most popular languages are class-based, meaning that objects are instances of classes, which typically also determines their type.
+        </paragraph>
+
+    </section>
+
+    <file_ext>
+    </file_ext>
+
+    <metadata>
+
+        <format>
+        </format>
+
+        <size>
+        </size>
+
+        <platform_requirements>
+        </platform_requirements>
+
+        <copyright>
+        </copyright>
+
+        <description lang="en" >
+        </description>
+    </metadata>
+
+</lo_content>

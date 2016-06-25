@@ -1,0 +1,86 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dp"
+    tools:context="com.logenerator.MainActivity$PlaceholderFragment" >
+
+    <HorizontalScrollView
+        android:id="@+id/horizontalScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/top"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:background="#d1e8ff"
+                android:padding="5dp" >
+
+                <EditText
+                    android:id="@+id/editText1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginRight="30dp"
+                    android:layout_weight="1"
+                    android:ems="10"
+                    android:hint="Lesson Title" />
+
+                <Button
+                    android:id="@+id/btnGenerate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.32"
+                    android:text="Generate" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/bottom"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="horizontal" >
+
+                <ListView
+                    android:id="@+id/listView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1" >
+
+                </ListView>
+
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:layout_weight="1"
+                    android:background="#fff" >
+
+                    <TextView
+                        android:id="@+id/textViewTitle"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_marginBottom="10dp"
+                        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+                    <LinearLayout
+                        android:id="@+id/previewArea"
+                        android:layout_width="match_parent"
+                        android:layout_height="fill_parent"
+                        android:layout_below="@+id/textViewTitle"
+                        android:layout_marginLeft="100dp"
+                        android:orientation="vertical" >
+                    </LinearLayout>
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </HorizontalScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lo_content type="image">
+    <title lang="en">Learning Objects</title>
+    <location type="URI">http://www.media.utah.edu/MODwiki/images/8/82/LrnObj_ContextVsReuse.jpg</location>
+    <file_ext>jpg</file_ext>
+    <metadata>
+		<format>jpg</format>
+		<size>53.8 KB</size>
+		<platform_requirements>image viewer</platform_requirements>
+		<copyright></copyright>
+		<description lang="en">Image of learning objects.</description>
+    </metadata>
+</lo_content>

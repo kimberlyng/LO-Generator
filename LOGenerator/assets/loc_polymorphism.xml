@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lo_content type="text" >
+
+    <title lang="en" >
+Polymorphism Definition
+    </title>
+
+    <section>
+
+        <subtitle lang="en" >
+        </subtitle>
+
+        <paragraph lang="en" >
+In a programming language that exhibits polymorphism, objects of classes belonging to the same hierarchical tree (i.e. inherited from a common base class) may possess functions bearing the same name, but each having different behaviors.
+        </paragraph>
+
+        <paragraph lang="en" >
+As an example, let us assume there is a base class named Animals from which the subclasses Horse, Fish and Bird are derived. Let us also assume that the Animals class has a function named Move, which is inherited by all subclasses mentioned. With polymorphism, each subclass may have its own way of implementing the function. So, for example, when the Move function is called in an object of the Horse class, the function might respond by displaying trotting on the screen. On the other hand, when the same function is called in an object of the Fish class, swimming might be displayed on the screen. In the case of a Bird object, it may be flying.
+        </paragraph>
+        
+        <paragraph lang="en">
+In effect, polymorphism trims down the work of the developer because he can now create a sort of general class with all the attributes and behaviors that he envisions for it. When the time comes for the developer to create more specific subclasses with certain unique attributes and behaviors, the developer can simply alter code in the specific portions where the behaviors will differ. All other portions of the code can be left as is.
+        </paragraph>
+    </section>
+
+    <file_ext>
+    </file_ext>
+
+    <metadata>
+
+        <format>
+        </format>
+
+        <size>
+        </size>
+
+        <platform_requirements>
+        </platform_requirements>
+
+        <copyright>
+        </copyright>
+
+        <description lang="en" >
+            A definition of polymorphism.
+        </description>
+    </metadata>
+
+</lo_content>

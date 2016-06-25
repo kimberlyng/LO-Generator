@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">LOGenerator</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string-array name="loTitleList">
+        <item>OOP Definition</item>
+        <item>Polymorphism Definition</item>
+        <item>Advantages and Disadvantages of XML</item>
+        <item>Learning Objects</item>
+        <item>Android Primer</item>
+        <item>PHP Variables</item>
+        <item>Red Black Trees</item>
+        <item>OOP Objects</item>
+    </string-array>
+    
+    <string-array name="loAuthorList">
+        <item>Abigail Blake</item>
+        <item>Natalya Willner</item>
+        <item>Raleigh Heier</item>
+        <item>Marcia Slezak</item>
+        <item>Rolf Kirven</item>
+        <item>Alfred Thiem</item>
+        <item>Caitlin Cage</item>
+        <item>Rosalia Cass</item>
+        <item>John Doe"</item>
+    </string-array>
+    
+    <string-array name="loDateList">
+        <item>January 13, 2006</item>
+        <item>October 11, 2002</item>
+        <item>June 10, 2013</item>
+        <item>February 21, 1998</item>
+        <item>March 3, 2014</item>
+        <item>May 9, 2011</item>
+        <item>November 3, 1999</item>
+        <item>November 6, 2008</item>
+        <item>March 18, 2011</item>
+    </string-array>
+
+    <string-array name="loXMLList">
+        <item>loc_oop.xml</item>
+        <item>loc_polymorphism.xml</item>
+        <item>loc_table_xml.xml</item>
+        <item>loc_learning_objects.xml</item>
+        <item>loc_img_learning_objects.xml</item>
+        <item>loc_vid_android.xml</item>
+        <item>loc_table_php_variables.xml</item>
+        <item>loc_img_red_black_tree.xml</item>
+        <item>loc_img_oop_objects.xml</item>
+    </string-array>
+
+    <string-array name="loTypeList">
+        <item>text</item>
+        <item>text</item>
+        <item>table</item>
+        <item>text</item>
+        <item>image</item>
+        <item>video</item>
+        <item>table</item>
+        <item>image</item>
+        <item>image</item>
+    </string-array>
+</resources>
